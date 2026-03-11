@@ -20,19 +20,28 @@ const Header = () => {
       { name: 'Client Portal', href: '/portals/client' },
     ],
     products: [
-      { name: 'Software Solutions', href: '/products/software' },
-      { name: 'Hardware Systems', href: '/products/hardware' },
-      { name: 'Cloud Tools', href: '/products/cloud' },
+      { name: 'School ERP Software', href: '/products/school-erp' },
+      { name: 'CRM Software', href: '/products/crm' },
+      { name: 'E-Commerce Solutions', href: '/products/e-commerce' },
+      { name: 'Whatsapp CRM', href: '/products/whatsapp-crm' },
     ],
     industries: [
-      { name: 'Healthcare', href: '/industries/healthcare' },
-      { name: 'Finance', href: '/industries/finance' },
-      { name: 'Education', href: '/industries/education' },
-    ],
+      { name: 'Real Estate', href: '/industries/real-estate' },
+      { name: 'Jobs & Recruiters', href: '/industries/jobs-recruiters' },
+      { name: 'Matrimonial', href: '/industries/matrimonial' },
+      { name: 'B2B/B2C', href: '/industries/b2b-b2c' },
+      { name: 'E-Commerce', href: '/industries/e-commerce' },
+      { name: 'School & Education', href: '/industries/school-education' },
+      { name: 'Travel', href: '/industries/travel' },
+      { name: 'Health Care', href: '/industries/healthcare' },
+    ],    
     services: [
-      { name: 'Consulting', href: '/Service/consulting' },
-      { name: 'Implementation', href: '/Service/implementation' },
-      { name: 'Support', href: '/Service/support' },
+      { name: 'Web Designing', href: '/Service/web-designing' },
+      { name: 'Web Development', href: '/Service/web-development' },
+      { name: 'Mobile App Development', href: '/Service/mobile-app-development' },
+      { name: 'Digital Marketing', href: '/Service/digital-marketing' },
+      { name: 'WhatsApp Business Solutions', href: '/Service/whatsapp-business-solutions' },
+      { name: 'Promotional Video Services', href: '/Service/promotional-video-services' },
     ]
   };
 

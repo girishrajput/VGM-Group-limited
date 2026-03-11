@@ -1,5 +1,5 @@
 import React from 'react';
-import { Eye, Target, CheckCircle2, Lightbulb, Users, TrendingUp, ShieldCheck } from 'lucide-react';
+import { Eye, Target, Lightbulb, Users, TrendingUp, ShieldCheck } from 'lucide-react';
 import Image from "next/image";
 
 const AboutPage = () => {

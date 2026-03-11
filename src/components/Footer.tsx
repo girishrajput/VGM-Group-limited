@@ -123,7 +123,7 @@ const Footer = () => {
           {/* Bottom Credits */}
           <div className="pt-8 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.2em] text-zinc-600">
             <p>© 2026 VGM Group Limited. All Rights Reserved.</p>
-            <p>Designed with precision.</p>
+            <p>Designed with Girish.</p>
           </div>
         </div>
       </footer>
