@@ -2,7 +2,7 @@ import React from 'react';
 
 const features = [
   { title: "Quality Driven Approach", icon: "🏆", hoverIcon: "🥇", color: "group-hover:bg-yellow-100" },
-  { title: "Transparent Work Culture", icon: "🤝", hoverIcon: "💎", color: "group-hover:bg-blue-100" },
+  { title: "Transparent Work Culture", icon: "🤝", hoverIcon: "💎", color: "group-hover:bg-red-100" },
   { title: "High Standards For Customer Service", icon: "📞", hoverIcon: "🎧", color: "group-hover:bg-green-100" },
   { title: "Passion For Perfection", icon: "✨", hoverIcon: "🚀", color: "group-hover:bg-purple-100" },
   { title: "Innovative Thinking", icon: "💡", hoverIcon: "🔥", color: "group-hover:bg-orange-100" },

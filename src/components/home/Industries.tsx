@@ -48,7 +48,7 @@ export default function IndustriesSection() {
           {industries.map((item, index) => (
             <div 
               key={index} 
-              className="group flex flex-col items-center justify-center p-6 border-[1.5px] border-blue-200 rounded-2xl aspect-square transition-all duration-300 hover:bg-red-600 hover:border-red-600 cursor-pointer shadow-sm hover:shadow-xl hover:shadow-blue-200"
+              className="group flex flex-col items-center justify-center p-6 border-[1.5px] border-red-200 rounded-2xl aspect-square transition-all duration-300 hover:bg-red-600 hover:border-red-600 cursor-pointer shadow-sm hover:shadow-xl hover:shadow-red-200"
             >
               {/* Icon - Changes from Blue to White on Hover */}
               <item.icon className="w-10 h-10 mb-4 text-red-500 transition-colors duration-300 group-hover:text-white" strokeWidth={1.5} />

@@ -99,7 +99,7 @@ export default function CreativeTabs() {
 
         {/* Creative Tab Navigation */}
         <div className="flex justify-center mb-16">
-          <div className="inline-flex bg-white/80 backdrop-blur-md p-1.5 rounded-2xl shadow-xl shadow-blue-100 border border-white">
+          <div className="inline-flex bg-white/80 backdrop-blur-md p-1.5 rounded-2xl shadow-xl shadow-red-100 border border-white">
             {tabs.map((tab) => (
               <button
                 key={tab}
@@ -110,7 +110,7 @@ export default function CreativeTabs() {
                 {activeTab === tab && (
                   <motion.div
                     layoutId="activeTab"
-                    className="absolute inset-0 bg-red-600 rounded-xl shadow-lg shadow-blue-200"
+                    className="absolute inset-0 bg-red-600 rounded-xl shadow-lg shadow-red-200"
                     transition={{ type: "spring", duration: 0.6 }}
                   />
                 )}
@@ -134,7 +134,7 @@ export default function CreativeTabs() {
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ delay: idx * 0.05, duration: 0.4 }}
                 whileHover={{ y: -8 }}
-                className="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-2xl hover:shadow-blue-100 transition-all duration-300 overflow-hidden"
+                className="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-2xl hover:shadow-red-100 transition-all duration-300 overflow-hidden"
               >
                 {/* Decorative background element */}
                 <div className={`absolute -right-4 -top-4 w-24 h-24 bg-linear-to-br ${item.color} opacity-10 rounded-full group-hover:scale-150 transition-transform duration-700`} />

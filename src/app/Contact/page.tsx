@@ -6,7 +6,7 @@ const contactData = [
   {
     title: "VGM Group Limited.",
     icon: <MapPin className="w-8 h-8 text-white" />,
-    gradient: "from-blue-600 to-indigo-600",
+    gradient: "from-red-600 to-indigo-600",
     content: (
       <p className="text-gray-500 text-sm leading-relaxed">
         Saife Mansion, 1st Floor,
@@ -35,7 +35,7 @@ const contactData = [
     gradient: "from-purple-400 to-pink-500",
     content: (
       <div className="text-sm">
-        <a href="mailto:info@vgmgroup.co.tz" className="text-blue-600 font-medium hover:underline">
+        <a href="mailto:info@vgmgroup.co.tz" className="text-red-600 font-medium hover:underline">
           info@vgmgroup.co.tz
         </a>
         <p className="text-gray-500 mt-1">
