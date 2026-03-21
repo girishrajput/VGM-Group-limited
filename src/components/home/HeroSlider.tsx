@@ -18,8 +18,8 @@ const slides = [
   },
   {
     id: 2,
-    title: "Grow Your Business Online",
-    desc: "Professional website design and digital marketing.",
+    title: "VGM GROUP LIMITED",
+    desc: "Innovative Solution for your Business Competitiveness",
     video: "/images/banner-1.mp4",
   },
   {
@@ -32,7 +32,7 @@ const slides = [
 
 export default function HeroSlider() {
   return (
-    <section className="relative w-full h-[600px] overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden">
       <Swiper
         modules={[Autoplay, Pagination, EffectFade]}
         effect="fade" // Smoother transition for video backgrounds

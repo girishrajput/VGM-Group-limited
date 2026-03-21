@@ -7,7 +7,7 @@ const Footer = () => {
   const sections = [
     {
       title: "Our Portals",
-      links: ["Exporters India", "Placement India", "RealEstate India", "TourTravel World", "Matrimonials India", "IndianYellow Pages"]
+      links: ["Job & Recruiters", "GMC Properties", "Quick Biz", "VGM Group travel and tours"]
     },
     {
       title: "Services",
@@ -15,21 +15,21 @@ const Footer = () => {
     },
     {
       title: "Products",
-      links: ["School ERP Solutions", "CRM Solutions", "E-Commerce Solutions"]
+      links: ["Business Process Outsourcing (BPO)", "HR & Payroll Management Software", "HR Solutions", "Travel & Tours Services", "GMC Properties", "Digital Services"]
     }
   ];
 
   const industries = [
-    { left: ["Real Estate", "Jobs & Recruiters", "Matrimonial", "B2B/B2C"], right: ["E-Commerce", "School & Education", "Travel", "Health Care"] }
+    { left: ["Real Estate", "Jobs & Recruiters", "Matrimonial", "B2B/B2C"], right: ["E-Commerce", "School & Education", "Travel"] }
   ];
 
   const bottomLinks = ["Home", "About Us", "Blog", "Career", "Contact Us", "Press Release", "Terms & Conditions", "Privacy Policy", "Online Payment"];
 
   const socials = [
-    { icon: Facebook, href: "#", label: "FB" },
-    { icon: Twitter, href: "#", label: "TW" },
-    { icon: Instagram, href: "#", label: "IG" },
-    { icon: Linkedin, href: "#", label: "LI" },
+    { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61568108589570&_rdc=2&_rdr#", label: "FB" },
+    { icon: Twitter, href: "https://x.com/vgmgroupltd", label: "TW" },
+    { icon: Instagram, href: "https://www.instagram.com/vgmgrouptz", label: "IG" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/vgmgroup/posts/?feedView=all", label: "LI" },
   ];
 
   return (
@@ -56,8 +56,8 @@ const Footer = () => {
                 </Link>
               </div>
               <p className="text-zinc-400 text-sm leading-relaxed mb-6">
-                Leading the industry with innovative solutions and world-class expertise since 2010.
-              </p>
+                As a diversified consulting firm focused on HR solutions and digital services, VGM Group Limited welcomes partnerships with organizations and individuals across all sectors. Leverage our expertise and expansive digital presence to co-create innovative solutions that drive sustainable business results
+                </p>
               
               {/* Social Icons */}
               <div className="flex gap-4">

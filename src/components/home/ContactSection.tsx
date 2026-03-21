@@ -14,6 +14,13 @@ export default function ContactSection() {
     }
   }
 
+  const socialLinks = [
+  { Icon: Mail, href: "mailto:info@vgmgroup.co.tz" },
+  { Icon: Phone, href: "tel:+255744000900" },
+  { Icon: MessageSquare, href: "https://wa.me/255744000900" },
+  { Icon: User, href: "/Contact" },
+];
+
   // Common styles for inputs to keep the code clean
   const inputStyles = "w-full p-3 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all bg-slate-50";
 
@@ -24,23 +31,24 @@ export default function ContactSection() {
         {/* Left Side: Content & Social Icons */}
         <div className="lg:w-1/2">
           <h2 className="text-5xl font-bold text-slate-800 mb-6 leading-tight">
-            Join Hands with Us
+            Collaborate with VGM Group Limited
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed mb-12 max-w-xl">
-            With a strong and diversified web presence, VGM Group limited. invites businesses
-            and individuals from every industry vertical to collaborate, innovate, and
-            create meaningful impact in the digital world.
+            As a diversified consulting firm focused on HR solutions and digital services, VGM Group Limited welcomes partnerships with organizations and individuals across all sectors. Leverage our expertise and expansive digital presence to co-create innovative solutions that drive sustainable business results
           </p>
 
           <div className="flex gap-4">
-            {[Mail, Phone, MessageSquare, User].map((Icon, idx) => (
-              <div
-                key={idx}
-                className="w-12 h-12 rounded-full border border-slate-300 flex items-center justify-center text-slate-400 hover:text-red-600 hover:border-red-600 hover:bg-white transition-all cursor-pointer shadow-sm"
-              >
-                <Icon size={20} strokeWidth={1.5} />
-              </div>
-            ))}
+            {socialLinks.map(({ Icon, href }, idx) => (
+  <a
+    key={idx}
+    href={href}
+    target="_blank" // Opens in a new tab
+    rel="noopener noreferrer" // Security best practice
+    className="w-12 h-12 rounded-full border border-slate-300 flex items-center justify-center text-slate-400 hover:text-red-600 hover:border-red-600 hover:bg-white transition-all cursor-pointer shadow-sm"
+  >
+    <Icon size={20} strokeWidth={1.5} />
+  </a>
+))}
           </div>
         </div>
 

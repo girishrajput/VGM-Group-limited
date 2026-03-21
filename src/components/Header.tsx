@@ -16,14 +16,18 @@ const Header = () => {
   // Centralized Navigation Data
   const menuData = {
     portals: [
-      { name: 'Partner Portal', href: '/portals/partner' },
-      { name: 'Client Portal', href: '/portals/client' },
+      { name: 'Job & Recruiters', href: '/portals/jobandrecruiters' },
+      { name: 'GMC Properties', href: '/portals/gmc-properties' },
+      { name: 'Quick Biz', href: '/portals/quick-biz' },
+      { name: 'VGM Group travel and tours', href: '/portals/vgm-group-travel-and-tours' },
     ],
     products: [
-      { name: 'School ERP Software', href: '/products/school-erp' },
-      { name: 'CRM Software', href: '/products/crm' },
-      { name: 'E-Commerce Solutions', href: '/products/e-commerce' },
-      { name: 'Whatsapp CRM', href: '/products/whatsapp-crm' },
+      { name: 'Business Process Outsourcing (BPO)', href: '/products/business-process-outsourcing' },
+      { name: 'HR & Payroll Management Software', href: '/products/hr-payroll-management' },
+      { name: 'HR Solutions', href: '/products/hr-solutions' },
+      { name: 'Travel & Tours Services', href: '/products/travel-tours-services' },
+      { name: 'GMC Properties', href: '/products/gmc-properties' },
+      { name: 'Digital Services', href: '/products/digital-services' },
     ],
     industries: [
       { name: 'Real Estate', href: '/industries/real-estate' },

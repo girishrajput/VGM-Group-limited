@@ -9,7 +9,7 @@ export default function SmartbizHrms() {
                 <div className="max-w-4xl mx-auto text-center">
                     <div className='flex justify-center items-center'>
                         <Image
-                            src="/images/smartbizhrms-logo-dark.png"
+                            src="/images/smartbizhrms-logo-dark1.png"
                             alt="IRCOIT Logo"
                             width={350}
                             height={70}
