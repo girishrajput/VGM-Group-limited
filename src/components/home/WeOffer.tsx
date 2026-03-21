@@ -13,7 +13,7 @@ import {
   Handshake,
   WalletCards,
   ReceiptText
-} from 'lucide-react';
+} from 'lucide-react'; 
 
 export const DATA = {
   Services: [
@@ -21,12 +21,12 @@ export const DATA = {
     { title: "HR Solution", desc: "Automate all the functional tools related to human resources management. Quickbiz HR Solutions is enriched with a highly qualified and professional team. The team consists of experts with long-standing experience.", color: "from-red-500 to-indigo-600", icon: WalletCards },
     { title: "HR & Payroll Management Software", desc: "Payroll Software is a critical and important part of your business. It is widely used by businesses and companies to manage employee payroll and reduce HR work.", color: "from-red-500 to-indigo-600", icon: ReceiptText },
 
-    { title: "Web Designing", desc: "We create attractive, easy-to-use websites that engage visitors and make your brand memorable.", color: "from-red-500 to-indigo-600", icon: Palette },
-    { title: "Web Development", desc: "We build strong, fast, and reliable websites to meet your business goals and user needs.", color: "from-red-500 to-indigo-600", icon: Code2 },
-    { title: "Mobile App Development", desc: "We design intuitive and useful mobile apps that help increase engagement.", color: "from-red-500 to-indigo-600", icon: Smartphone },
-    { title: "Promotional Video Services", desc: "We design impactful promotional videos that explain your services clearly.", color: "from-red-500 to-indigo-600", icon: Video },
-    { title: "Digital Marketing", desc: "We use effective online marketing strategies to bring more visitors.", color: "from-red-500 to-indigo-600", icon: Megaphone },
-    { title: "WhatsApp Business Solutions", desc: "Streamlining customer communication with automated WhatsApp solutions.", color: "from-red-500 to-indigo-600", icon: MessageSquare }
+    // { title: "Web Designing", desc: "We create attractive, easy-to-use websites that engage visitors and make your brand memorable.", color: "from-red-500 to-indigo-600", icon: Palette },
+    // { title: "Web Development", desc: "We build strong, fast, and reliable websites to meet your business goals and user needs.", color: "from-red-500 to-indigo-600", icon: Code2 },
+    // { title: "Mobile App Development", desc: "We design intuitive and useful mobile apps that help increase engagement.", color: "from-red-500 to-indigo-600", icon: Smartphone },
+    // { title: "Promotional Video Services", desc: "We design impactful promotional videos that explain your services clearly.", color: "from-red-500 to-indigo-600", icon: Video },
+    // { title: "Digital Marketing", desc: "We use effective online marketing strategies to bring more visitors.", color: "from-red-500 to-indigo-600", icon: Megaphone },
+    // { title: "WhatsApp Business Solutions", desc: "Streamlining customer communication with automated WhatsApp solutions.", color: "from-red-500 to-indigo-600", icon: MessageSquare }
   ],
   // Portals: [
   //   { title: "ExportersIndia", desc: "A trusted B2B marketplace connecting manufacturers and suppliers.", color: "from-red-500 to-indigo-600", icon: "E" },
@@ -51,7 +51,7 @@ export default function ServicesList() {
   return (
     <div className="min-h-screen bg-slate-50 py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6 text-center">Our Offerings</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6 text-center">Our Services</h2>
         <p className="text-slate-600 max-w-2xl mx-auto mb-16 text-center">
           Empowering your digital presence with smart, scalable solutions.
         </p>
