@@ -28,7 +28,7 @@ const AboutPage = () => {
               </h2>
               <p>We provide support that improves efficiency and strengthens workforce management, including:</p>
               <div className="space-y-8 flex flex-wrap gap-4 mt-2 items-center">
-                <ValueItem className="flex" icon={<Handshake />} title="Business Process Outsourcing (BPO)" text="We manage selected business tasks and operational processes so your team can focus on core activities, improving productivity and service delivery." />
+                <ValueItem icon={<Handshake />} title="Business Process Outsourcing (BPO)" text="We manage selected business tasks and operational processes so your team can focus on core activities, improving productivity and service delivery." />
                 <ValueItem icon={<WalletCards />} title="HR & Payroll Management Software" text="We assist organisations in implementing and using HR and payroll systems to manage employee records, attendance/leave, payroll preparation, and reporting with accuracy and speed" />
                 <ValueItem icon={<ReceiptText />} title="HR Solutions" text="We support organisations with structured HR coordination, including HR administration, policy guidance, employee documentation, recruitment support workflows, and professional HR management." />
 
