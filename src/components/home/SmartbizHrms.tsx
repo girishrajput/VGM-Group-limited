@@ -28,7 +28,7 @@ export default function SmartbizHrms() {
                     </p>
                     <div className='flex flex-wrap justify-center items-center'>
                         <Link rel="alternate" href="/pdf/SmartbizHRMSoftwareBrochure.pdf" type="application/atom+xml" title="Atom" target='_blank'>
-                            <span className="bg-red-600 px-5 py-2 text-white rounded-lg hover:bg-red-700 transition whitespace-nowrap text-xl">
+                            <span className="bg-red-600 px-5 py-2 text-white rounded-lg hover:bg-red-700 transition whitespace-nowrap text-xl cursor-pointer">
                                 Download Brochure
                             </span>
                         </Link>
