@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function SmartbizHrms() {
 
@@ -26,9 +27,11 @@ export default function SmartbizHrms() {
                         Turning ideas into meaningful achievements through our core values.
                     </p>
                     <div className='flex flex-wrap justify-center items-center'>
-                        <button className="bg-red-600 px-5 py-2 text-white rounded-lg hover:bg-red-700 transition whitespace-nowrap text-xl">
-                            Download Brochure
-                        </button>
+                        <Link rel="alternate" href="/pdf/SmartbizHRMSoftwareBrochure.pdf" type="application/atom+xml" title="Atom" target='_blank'>
+                            <span className="bg-red-600 px-5 py-2 text-white rounded-lg hover:bg-red-700 transition whitespace-nowrap text-xl">
+                                Download Brochure
+                            </span>
+                        </Link>
                     </div>
                 </div>
             </div>
