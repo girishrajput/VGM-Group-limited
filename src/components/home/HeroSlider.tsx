@@ -16,7 +16,7 @@ const slides = [
     id: 2,
     title: "VGM GROUP LIMITED",
     desc: "Innovative Solution for your Business Competitiveness",
-    video: "/images/banner-1.mp4",
+    video: "/images/banner.mp4",
   },
 ];
 

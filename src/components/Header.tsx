@@ -18,13 +18,13 @@ const Header = () => {
       { name: "Job & Recruiters", href: "/portals/jobandrecruiters" },
       { name: "GMC Properties", href: "/portals/gmc-properties" },
       { name: "Quick Biz", href: "/portals/quick-biz" },
-      { name: "VGM Group travel and tours", href: "/portals/vgm-group-travel-and-tours" },
+      { name: "VGM Group travel and tours", href: "/portals/vgmgroup-travelandtours" },
     ],
     products: [
-      { name: "Business Process Outsourcing (BPO)", href: "/products/business-process-outsourcing" },
-      { name: "HR & Payroll Management Software", href: "/products/hr-payroll-management" },
+      { name: "Business Process Outsourcing (BPO)", href: "/products/business-processoutsourcing" },
+      { name: "HR & Payroll Management Software", href: "/products/hrpayroll-management" },
       { name: "HR Solutions", href: "/products/hr-solutions" },
-      { name: "Travel & Tours Services", href: "/products/travel-tours-services" },
+      { name: "Travel & Tours Services", href: "/products/travel-toursservices" },
       { name: "GMC Properties", href: "/products/gmc-properties" },
       { name: "Digital Services", href: "/products/digital-services" },
     ],
@@ -40,10 +40,10 @@ const Header = () => {
     services: [
       { name: "Web Designing", href: "/services/web-designing" },
       { name: "Web Development", href: "/services/web-development" },
-      { name: "Mobile App Development", href: "/services/mobile-app-development" },
+      { name: "Mobile App Development", href: "/services/mobileapp-development" },
       { name: "Digital Marketing", href: "/services/digital-marketing" },
-      { name: "WhatsApp Business Solutions", href: "/services/whatsapp-business-solutions" },
-      { name: "Promotional Video Services", href: "/services/promotional-video-services" },
+      { name: "WhatsApp Business Solutions", href: "/services/whatsappbusiness-solutions" },
+      { name: "Promotional Video Services", href: "/services/promotional-videoservices" },
     ],
   };
 
@@ -61,7 +61,7 @@ const Header = () => {
         {/* Logo */}
         <Link href="/">
           <Image
-            src="/images/vgm-logo.png"
+            src="/images/vgmlogo.png"
             alt="VGM Logo"
             width={100}
             height={50}
