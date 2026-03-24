@@ -63,9 +63,9 @@ const Header = () => {
           <Image
             src="/images/vgm-logo.png"
             alt="VGM Logo"
-            width={150}
+            width={100}
             height={50}
-            style={{ width: "auto", height: "auto" }}
+            style={{ width: "160px", height: "auto" }}
           />
         </Link>
 
