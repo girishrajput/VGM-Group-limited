@@ -10,7 +10,7 @@ const AboutPage = () => {
 
       <InnerHeader
         title="About VGM Group Limited. – Innovative Solution for your Business Competitiveness"
-        subtitle="Trusted offshore development partner delivering AI, web, and mobile solutions globally."
+        subtitle=""
       />
 
       {/* Main Content Grid */}

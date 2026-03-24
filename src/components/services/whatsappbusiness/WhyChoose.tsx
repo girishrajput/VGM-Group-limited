@@ -1,19 +1,51 @@
 import React from 'react';
 import { 
-  Paintbrush, Smartphone, MousePointerClick, Layout, 
-  Zap, Settings, Globe, LifeBuoy 
+  MessageSquareText,
+  Bot,
+  Send,
+  ShieldCheck,
+  Headset,
+  Blocks,
+  TrendingUp
 } from 'lucide-react';
 import { ServiceCard } from '@/components/ServiceCard';
 
 const SERVICES_DATA = [
-  { title: "Custom Website Development", description: "Every design is made as per your business needs, not copied from templates.", icon: Paintbrush },
-  { title: "Mobile-Friendly Layouts", description: "Websites that open properly on mobiles, tablets, and desktops.", icon: Smartphone },
-  { title: "Easy to Navigate", description: "Simple structure so that visitors can easily find what they are looking for.", icon: MousePointerClick },
-  { title: "Clear and Neat Look", description: "Clean layouts, readable fonts, and balanced colors.", icon: Layout },
-  { title: "Fast Loading Pages", description: "Optimized performance to ensure your pages load instantly for users.", icon: Zap },
-  { title: "Simple Maintenance", description: "Development that can be easily updated whenever needed.", icon: Settings },
-  { title: "Cross-Browser Support", description: "Website works properly on all browsers like Chrome, Firefox, Safari, etc.", icon: Globe },
-  { title: "Long-Term Support", description: "We provide updates and help even after your website goes live.", icon: LifeBuoy },
+  {
+    title: "Instant Customer Communication",
+    description: "Reach customers directly on WhatsApp.",
+    icon: MessageSquareText
+  },
+  {
+    title: "Automated Messaging",
+    description: "Set up chatbots for instant replies and FAQs.",
+    icon: Bot
+  },
+  {
+    title: "Bulk Messaging",
+    description: "Send promotions, alerts, or updates to multiple customers.",
+    icon: Send
+  },
+  {
+    title: "Secure Platform",
+    description: "End-to-end encryption keeps your messages safe.",
+    icon: ShieldCheck
+  },
+  {
+    title: "Customer Support",
+    description: "Provide real-time support and quick query resolution.",
+    icon: Headset
+  },
+  {
+    title: "Integration Friendly",
+    description: "Connect WhatsApp with CRM, e-commerce, or other platforms.",
+    icon: Blocks
+  },
+  {
+    title: "Scalable Solutions",
+    description: "From small businesses to enterprises, suitable for all.",
+    icon: TrendingUp
+  },
 ];
 
 const WhyChoose = () => {

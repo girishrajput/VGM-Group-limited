@@ -118,7 +118,8 @@ const Header = () => {
           </nav>
 
           <Link href="/Contact" className="bg-red-600 px-5 py-2 text-white rounded-lg hover:bg-red-700 transition whitespace-nowrap">
-            Book a Free Consultation
+          Job Seekers and Recruiters
+            
           </Link>
         </div>
       </div>
@@ -160,7 +161,7 @@ const Header = () => {
           <Link href="/Contact" onClick={toggleMenu} className="text-lg font-medium">Contact</Link>
           
           <Link href="/Contact" onClick={toggleMenu} className="bg-red-600 text-white p-4 text-center rounded-lg font-bold mt-4">
-            Book a Free Consultation
+            Job Seekers and Recruiters
           </Link>
         </nav>
       </div>

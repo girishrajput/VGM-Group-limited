@@ -2,59 +2,41 @@ import { ServiceCard } from "@/components/TypeofServiceCard";
 
 const SERVICE_DATA = [
   {
-    title: "Ecommerce Digital Marketing Solutions",
+    title: "Travel Website Development",
     description:
-      "We create professional eCommerce websites that make online selling easier. With user-friendly layouts, clear product displays, and secure checkout options, your customers can shop with confidence. Our eCommerce Development are responsive, fast-loading, and optimized for conversions. Whether you sell a few items or manage a large online store, we ensure smooth navigation and attractive product pages. With our expertise in online store development, shopping cart integration, and secure payment gateways, we help businesses increase sales, build trust, and grow their digital presence effectively in today’s competitive market.",
-    image: "/images/service/ecommerce-web-design.jpg",
+      "We design professional, responsive travel websites for agencies, tour operators, and hotels. Users can explore packages, book trips, and contact agents instantly. SEO-optimized and user-friendly, our websites increase visibility, attract global clients, and serve as a digital hub for promoting tours, destinations, and travel services efficiently.",
+    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1000&auto=format&fit=crop",
   },
   {
-    title: "Custom Digital Marketing Solutions",
+    title: "Travel Mobile App Development",
     description:
-      "Our custom Digital Marketing Solutions services deliver unique websites created from scratch to reflect your brand’s identity and vision. Unlike template-based Development, we focus on tailor-made layouts that match your business goals, target audience, and industry. From colors and fonts to features and functionality, everything is built to enhance your brand. A custom website ensures exclusivity, better performance, and strong online positioning. With our expertise in UI/UX design, business web solutions, and brand-focused website creation, we help you stand out, attract more visitors, and build long-term credibility in the digital space.",
-    image: "/images/service/custom-web-design.jpg",
+      "Our mobile apps allow travel agencies and operators to offer on-the-go booking and itinerary management. Clients can browse packages, check availability, and make reservations instantly. Push notifications, search filters, and secure payment options enhance user experience, making trip planning convenient for tourists while boosting agency engagement and bookings.",
+    image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=1000&auto=format&fit=crop",
   },
   {
-    title: "Mobile Digital Marketing Solutions",
+    title: "Booking & Reservation Management System",
     description:
-      "With most users browsing on smartphones, mobile Digital Marketing Solutions is now a must. We design websites optimized for mobile users with responsive layouts, fast loading speed, and easy navigation. Our mobile-first approach ensures that your website looks and works perfectly on every screen size, from small smartphones to tablets. By focusing on seamless performance, we enhance user experience and reduce bounce rates. With our expertise in mobile-friendly website design, responsive layouts, and mobile optimization, we help businesses capture more traffic, improve engagement, and turn mobile visitors into loyal customers.",
-    image: "/images/service/mobile-web-design.jpg",
+      "We provide a booking and reservation management system for agencies, hotels, and tour operators. Track customer bookings, manage itineraries, handle cancellations, and process payments seamlessly. This solution reduces operational errors, improves client satisfaction, and helps travel businesses deliver smooth, reliable services efficiently across destinations and clients.",
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1000&auto=format&fit=crop",
   },
   {
-    title: "Corporate Website Design",
+    title: "Travel CRM Solutions",
     description:
-      "Our corporate website design services help companies build a strong professional presence online. We design websites that highlight your company profile, services, achievements, and values in a polished and business-friendly way. A well-designed corporate site builds trust, attracts clients, and strengthens your brand identity. We focus on clean layouts, easy navigation, and engaging visuals that reflect your professionalism. With our expertise in business website design, corporate branding, and enterprise Digital Marketing Solutions, we ensure your company stands out in a competitive market and builds lasting credibility with customers and stakeholders.",
-    image: "/images/service/corporate-website-design.jpg",
+      "Our travel CRM helps agencies, consultants, and tour operators manage client inquiries, leads, and bookings effectively. Track communications, schedule follow-ups, and analyze travel trends. By centralizing data, travel businesses can improve customer satisfaction, streamline operations, and enhance client retention, making tour planning more organized and result-oriented.",
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000&auto=format&fit=crop",
   },
   {
-    title: "Responsive Digital Marketing Solutions Services",
+    title: "Digital Marketing for Travel Services",
     description:
-      "Our responsive Digital Marketing Solutions services ensure that your website adapts automatically to desktops, tablets, and mobiles, offering visitors a consistent experience across all devices. A responsive website reduces maintenance, improves SEO ranking, and increases customer satisfaction. Whether users access your site on Chrome, Safari, or other browsers, they’ll enjoy smooth navigation and clear content display. With our expertise in cross-browser compatibility, mobile-friendly layouts, and adaptive Digital Marketing Solutions, we help businesses expand their reach, retain visitors longer, and generate more leads through modern, responsive, and user-focused websites.",
-    image: "/images/service/responsive-web-design.jpg",
+      "We provide SEO, social media, and paid marketing for travel agencies, tour operators, and hotels. Promote destinations, packages, and services to targeted audiences worldwide. Digital marketing enhances visibility, attracts tourists, builds credibility, and drives bookings, helping travel businesses grow in competitive local and global markets efficiently.",
+    image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1000&auto=format&fit=crop",
   },
   {
-    title: "Dynamic Website Design",
-    description:
-      "We build dynamic websites that are interactive, flexible, and easy to update. Whether it’s blogs, product listings, forms, or content sections, dynamic websites allow businesses to make changes without technical knowledge. These websites engage visitors with fresh updates and interactive features. Perfect for businesses that need frequent content updates, they enhance user experience and functionality. With our expertise in CMS-based websites, interactive web solutions, and dynamic design development, we help brands stay current, provide engaging experiences, and grow their online presence with modern and scalable websites.",
-    image: "/images/service/dynamic-website-design.jpg",
-  },
-  {
-    title: "Static Website Design",
-    description:
-      "Our static website design services are ideal for small businesses, startups, or individuals who need a simple yet effective online presence. Static websites have fixed content, load quickly, and are budget-friendly. They work best for companies that don’t require frequent content updates. Despite their simplicity, our Development are professional, clean, and SEO-friendly, ensuring you leave a strong impression online. With our expertise in one-page websites, basic business Digital Marketing Solutions, and lightweight static websites, we help clients establish a credible identity and showcase their offerings effectively at low cost.",
-    image: "/images/service/static-website-design.jpg",
-  },
-  {
-    title: "Website ReDevelopment Services",
-    description:
-      "We offer website redesign services to transform outdated websites into modern, user-friendly platforms. From updating layouts and improving visuals to enhancing speed and mobile responsiveness, we give your site a complete makeover. A redesigned website improves user engagement, reduces bounce rates, and builds credibility. Whether you need better SEO performance, improved navigation, or a fresh corporate look, we can help. With our expertise in website revamp, modern UI/UX updates, and redesign services, we ensure your online presence stays competitive, relevant, and aligned with current digital trends.",
-    image: "/images/service/website-redesigning-services.jpg",
-  },
-  {
-    title: "PSD to HTML Services",
-    description:
-      "Our PSD to HTML conversion services turn your design files into fully functional, responsive websites. We carefully code your PSD Development into clean HTML while maintaining layout accuracy and browser compatibility. These websites are SEO-friendly, fast-loading, and mobile-optimized. By converting your creative Development into real websites, we ensure smooth performance across all platforms. With our expertise in HTML5 coding, responsive Digital Marketing Solutions, and PSD conversion, we provide reliable, pixel-perfect websites that are easy to manage, visually appealing, and effective for online business success.",
-    image: "/images/service/psd-to-html-services.jpg",
-  },
+  title: "WhatsApp & Client Communication Services",
+  description:
+    "We integrate WhatsApp solutions for travel businesses to communicate quickly with clients. Share booking confirmations, itinerary updates, promotions, and travel alerts directly. Consultants and agencies can manage responses efficiently, improving engagement, enhancing customer experience, and ensuring tourists receive timely and personalized information for a smooth travel journey.",
+  image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000&auto=format&fit=crop",
+}
 ];
 
 export default function TypeofService() {

@@ -2,58 +2,34 @@ import { ServiceCard } from "@/components/TypeofServiceCard";
 
 const SERVICE_DATA = [
   {
-    title: "Ecommerce Mobile App Development",
+    title: "Android App Development",
     description:
-      "We create professional eCommerce websites that make online selling easier. With user-friendly layouts, clear product displays, and secure checkout options, your customers can shop with confidence. Our eCommerce Development are responsive, fast-loading, and optimized for conversions. Whether you sell a few items or manage a large online store, we ensure smooth navigation and attractive product pages. With our expertise in online store development, shopping cart integration, and secure payment gateways, we help businesses increase sales, build trust, and grow their digital presence effectively in today’s competitive market.",
-    image: "/images/service/ecommerce-web-design.jpg",
+      "Android has the largest user base in the world, and our Android apps are designed to reach maximum customers. We create apps that work seamlessly across all devices and Android versions. From e-commerce stores to healthcare apps, our team ensures smooth navigation, strong performance, and data security.",
+    image: "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?auto=format&fit=crop&q=80&w=1000",
+  },
+  {
+    title: "iOS App Development",
+    description:
+      "We develop high-quality iOS apps designed specifically for iPhones and iPads. iOS users expect premium performance, and our apps deliver exactly that with clean designs and reliable features. Our focus is on security, smooth navigation, and user satisfaction.",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=1000",
+  },
+  {
+    title: "Hybrid App Development",
+    description:
+      "Hybrid apps are the perfect choice for businesses that want to save time and costs while reaching both Android and iOS users. We develop hybrid apps using modern frameworks like React Native and Flutter, providing excellent performance and a seamless user experience.",
+    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1000",
+  },
+  {
+    title: "Enterprise Mobile Apps",
+    description:
+      "Enterprise apps are designed to improve internal business operations. We build apps for managing employees, tracking projects, and streamlining processes, focusing on creating secure, scalable, and easy-to-use solutions for your organization.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000",
   },
   {
     title: "Custom Mobile App Development",
     description:
-      "Our custom Mobile App Development services deliver unique websites created from scratch to reflect your brand’s identity and vision. Unlike template-based Development, we focus on tailor-made layouts that match your business goals, target audience, and industry. From colors and fonts to features and functionality, everything is built to enhance your brand. A custom website ensures exclusivity, better performance, and strong online positioning. With our expertise in UI/UX design, business web solutions, and brand-focused website creation, we help you stand out, attract more visitors, and build long-term credibility in the digital space.",
-    image: "/images/service/custom-web-design.jpg",
-  },
-  {
-    title: "Mobile Mobile App Development",
-    description:
-      "With most users browsing on smartphones, mobile Mobile App Development is now a must. We design websites optimized for mobile users with responsive layouts, fast loading speed, and easy navigation. Our mobile-first approach ensures that your website looks and works perfectly on every screen size, from small smartphones to tablets. By focusing on seamless performance, we enhance user experience and reduce bounce rates. With our expertise in mobile-friendly website design, responsive layouts, and mobile optimization, we help businesses capture more traffic, improve engagement, and turn mobile visitors into loyal customers.",
-    image: "/images/service/mobile-web-design.jpg",
-  },
-  {
-    title: "Corporate Website Design",
-    description:
-      "Our corporate website design services help companies build a strong professional presence online. We design websites that highlight your company profile, services, achievements, and values in a polished and business-friendly way. A well-designed corporate site builds trust, attracts clients, and strengthens your brand identity. We focus on clean layouts, easy navigation, and engaging visuals that reflect your professionalism. With our expertise in business website design, corporate branding, and enterprise Mobile App Development, we ensure your company stands out in a competitive market and builds lasting credibility with customers and stakeholders.",
-    image: "/images/service/corporate-website-design.jpg",
-  },
-  {
-    title: "Responsive Mobile App Development Services",
-    description:
-      "Our responsive Mobile App Development services ensure that your website adapts automatically to desktops, tablets, and mobiles, offering visitors a consistent experience across all devices. A responsive website reduces maintenance, improves SEO ranking, and increases customer satisfaction. Whether users access your site on Chrome, Safari, or other browsers, they’ll enjoy smooth navigation and clear content display. With our expertise in cross-browser compatibility, mobile-friendly layouts, and adaptive Mobile App Development, we help businesses expand their reach, retain visitors longer, and generate more leads through modern, responsive, and user-focused websites.",
-    image: "/images/service/responsive-web-design.jpg",
-  },
-  {
-    title: "Dynamic Website Design",
-    description:
-      "We build dynamic websites that are interactive, flexible, and easy to update. Whether it’s blogs, product listings, forms, or content sections, dynamic websites allow businesses to make changes without technical knowledge. These websites engage visitors with fresh updates and interactive features. Perfect for businesses that need frequent content updates, they enhance user experience and functionality. With our expertise in CMS-based websites, interactive web solutions, and dynamic design development, we help brands stay current, provide engaging experiences, and grow their online presence with modern and scalable websites.",
-    image: "/images/service/dynamic-website-design.jpg",
-  },
-  {
-    title: "Static Website Design",
-    description:
-      "Our static website design services are ideal for small businesses, startups, or individuals who need a simple yet effective online presence. Static websites have fixed content, load quickly, and are budget-friendly. They work best for companies that don’t require frequent content updates. Despite their simplicity, our Development are professional, clean, and SEO-friendly, ensuring you leave a strong impression online. With our expertise in one-page websites, basic business Mobile App Development, and lightweight static websites, we help clients establish a credible identity and showcase their offerings effectively at low cost.",
-    image: "/images/service/static-website-design.jpg",
-  },
-  {
-    title: "Website ReDevelopment Services",
-    description:
-      "We offer website redesign services to transform outdated websites into modern, user-friendly platforms. From updating layouts and improving visuals to enhancing speed and mobile responsiveness, we give your site a complete makeover. A redesigned website improves user engagement, reduces bounce rates, and builds credibility. Whether you need better SEO performance, improved navigation, or a fresh corporate look, we can help. With our expertise in website revamp, modern UI/UX updates, and redesign services, we ensure your online presence stays competitive, relevant, and aligned with current digital trends.",
-    image: "/images/service/website-redesigning-services.jpg",
-  },
-  {
-    title: "PSD to HTML Services",
-    description:
-      "Our PSD to HTML conversion services turn your design files into fully functional, responsive websites. We carefully code your PSD Development into clean HTML while maintaining layout accuracy and browser compatibility. These websites are SEO-friendly, fast-loading, and mobile-optimized. By converting your creative Development into real websites, we ensure smooth performance across all platforms. With our expertise in HTML5 coding, responsive Mobile App Development, and PSD conversion, we provide reliable, pixel-perfect websites that are easy to manage, visually appealing, and effective for online business success.",
-    image: "/images/service/psd-to-html-services.jpg",
+      "Every business has unique needs, and we develop custom mobile apps tailored to match those requirements. Whether it's an innovative startup idea or a specialized solution for an established company, we bring your concept to life with performance and scalability in mind.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
   },
 ];
 

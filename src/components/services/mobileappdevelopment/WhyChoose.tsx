@@ -1,19 +1,41 @@
 import React from 'react';
 import { 
-  Paintbrush, Smartphone, MousePointerClick, Layout, 
-  Zap, Settings, Globe, LifeBuoy 
+  Palette, TabletSmartphone, Gauge, TrendingUp, 
+  ShieldCheck, Headphones
 } from 'lucide-react';
 import { ServiceCard } from '@/components/ServiceCard';
 
 const SERVICES_DATA = [
-  { title: "Custom Website Development", description: "Every design is made as per your business needs, not copied from templates.", icon: Paintbrush },
-  { title: "Mobile-Friendly Layouts", description: "Websites that open properly on mobiles, tablets, and desktops.", icon: Smartphone },
-  { title: "Easy to Navigate", description: "Simple structure so that visitors can easily find what they are looking for.", icon: MousePointerClick },
-  { title: "Clear and Neat Look", description: "Clean layouts, readable fonts, and balanced colors.", icon: Layout },
-  { title: "Fast Loading Pages", description: "Optimized performance to ensure your pages load instantly for users.", icon: Zap },
-  { title: "Simple Maintenance", description: "Development that can be easily updated whenever needed.", icon: Settings },
-  { title: "Cross-Browser Support", description: "Website works properly on all browsers like Chrome, Firefox, Safari, etc.", icon: Globe },
-  { title: "Long-Term Support", description: "We provide updates and help even after your website goes live.", icon: LifeBuoy },
+  { 
+    title: "User-Friendly Designs", 
+    description: "Simple layouts that keep users engaged.", 
+    icon: Palette 
+  },
+  { 
+    title: "Cross-Platform Support", 
+    description: "Apps for Android, iOS, or both.", 
+    icon: TabletSmartphone 
+  },
+  { 
+    title: "Smooth Performance", 
+    description: "Optimized for speed and responsiveness.", 
+    icon: Gauge 
+  },
+  { 
+    title: "Scalable Solutions", 
+    description: "Apps that grow with your business needs.", 
+    icon: TrendingUp 
+  },
+  { 
+    title: "Secure Development", 
+    description: "Protection of user data and safe transactions.", 
+    icon: ShieldCheck 
+  },
+  { 
+    title: "Complete Support", 
+    description: "From planning and design to publishing and updates.", 
+    icon: Headphones 
+  },
 ];
 
 const WhyChoose = () => {

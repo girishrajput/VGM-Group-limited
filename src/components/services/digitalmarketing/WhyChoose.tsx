@@ -1,19 +1,57 @@
 import React from 'react';
 import { 
-  Paintbrush, Smartphone, MousePointerClick, Layout, 
-  Zap, Settings, Globe, LifeBuoy 
+  Search, 
+  Share2, 
+  MousePointerClick, 
+  Mail, 
+  FileText, 
+  MapPin, 
+  BarChart3, 
+  Wallet 
 } from 'lucide-react';
 import { ServiceCard } from '@/components/ServiceCard';
 
 const SERVICES_DATA = [
-  { title: "Custom Website Development", description: "Every design is made as per your business needs, not copied from templates.", icon: Paintbrush },
-  { title: "Mobile-Friendly Layouts", description: "Websites that open properly on mobiles, tablets, and desktops.", icon: Smartphone },
-  { title: "Easy to Navigate", description: "Simple structure so that visitors can easily find what they are looking for.", icon: MousePointerClick },
-  { title: "Clear and Neat Look", description: "Clean layouts, readable fonts, and balanced colors.", icon: Layout },
-  { title: "Fast Loading Pages", description: "Optimized performance to ensure your pages load instantly for users.", icon: Zap },
-  { title: "Simple Maintenance", description: "Development that can be easily updated whenever needed.", icon: Settings },
-  { title: "Cross-Browser Support", description: "Website works properly on all browsers like Chrome, Firefox, Safari, etc.", icon: Globe },
-  { title: "Long-Term Support", description: "We provide updates and help even after your website goes live.", icon: LifeBuoy },
+  { 
+    title: "SEO Optimization", 
+    description: "Improve website ranking on Google and other search engines.", 
+    icon: Search 
+  },
+  { 
+    title: "Social Media Marketing", 
+    description: "Build brand awareness and engage with your audience.", 
+    icon: Share2 
+  },
+  { 
+    title: "PPC Advertising", 
+    description: "Run cost-effective paid campaigns for instant leads and sales.", 
+    icon: MousePointerClick 
+  },
+  { 
+    title: "Email Marketing", 
+    description: "Reach your customers directly with targeted emails.", 
+    icon: Mail 
+  },
+  { 
+    title: "Content Marketing", 
+    description: "Create valuable content to attract and retain users.", 
+    icon: FileText 
+  },
+  { 
+    title: "GEO-Targeting", 
+    description: "Reach customers in specific locations to boost local business.", 
+    icon: MapPin 
+  },
+  { 
+    title: "Analytics & Reporting", 
+    description: "Track performance and improve campaigns continuously.", 
+    icon: BarChart3 
+  },
+  { 
+    title: "Affordable & Flexible Plans", 
+    description: "Customized strategies that fit your business needs.", 
+    icon: Wallet 
+  },
 ];
 
 const WhyChoose = () => {

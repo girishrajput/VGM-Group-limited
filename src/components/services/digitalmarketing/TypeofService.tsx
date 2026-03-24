@@ -2,58 +2,40 @@ import { ServiceCard } from "@/components/TypeofServiceCard";
 
 const SERVICE_DATA = [
   {
-    title: "Ecommerce Digital Marketing Solutions",
+    title: "Search Engine Optimization (SEO)",
     description:
-      "We create professional eCommerce websites that make online selling easier. With user-friendly layouts, clear product displays, and secure checkout options, your customers can shop with confidence. Our eCommerce Development are responsive, fast-loading, and optimized for conversions. Whether you sell a few items or manage a large online store, we ensure smooth navigation and attractive product pages. With our expertise in online store development, shopping cart integration, and secure payment gateways, we help businesses increase sales, build trust, and grow their digital presence effectively in today’s competitive market.",
-    image: "/images/service/ecommerce-web-design.jpg",
+      "Our SEO services help your website rank higher on search engines, attract organic traffic, and improve visibility. We perform keyword research, on-page optimization, technical SEO, and content strategy to increase your website's search engine ranking. With local SEO, link building, and competitor analysis, we help your business reach customers searching for your products or services.",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop",
   },
   {
-    title: "Custom Digital Marketing Solutions",
+    title: "Social Media Marketing",
     description:
-      "Our custom Digital Marketing Solutions services deliver unique websites created from scratch to reflect your brand’s identity and vision. Unlike template-based Development, we focus on tailor-made layouts that match your business goals, target audience, and industry. From colors and fonts to features and functionality, everything is built to enhance your brand. A custom website ensures exclusivity, better performance, and strong online positioning. With our expertise in UI/UX design, business web solutions, and brand-focused website creation, we help you stand out, attract more visitors, and build long-term credibility in the digital space.",
-    image: "/images/service/custom-web-design.jpg",
+      "We grow your presence on platforms like Facebook, Instagram, LinkedIn, and Twitter through targeted campaigns. Social media marketing increases brand awareness, customer engagement, and audience interaction. Our strategy includes content creation, posting schedules, paid promotions, and follower growth techniques to generate potential leads and long-term relationships.",
+    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=800&auto=format&fit=crop",
   },
   {
-    title: "Mobile Digital Marketing Solutions",
+    title: "Pay-Per-Click (PPC) Advertising",
     description:
-      "With most users browsing on smartphones, mobile Digital Marketing Solutions is now a must. We design websites optimized for mobile users with responsive layouts, fast loading speed, and easy navigation. Our mobile-first approach ensures that your website looks and works perfectly on every screen size, from small smartphones to tablets. By focusing on seamless performance, we enhance user experience and reduce bounce rates. With our expertise in mobile-friendly website design, responsive layouts, and mobile optimization, we help businesses capture more traffic, improve engagement, and turn mobile visitors into loyal customers.",
-    image: "/images/service/mobile-web-design.jpg",
+      "PPC campaigns deliver instant results by showing your ads to your target audience at the right time. We manage Google Ads, Bing Ads, and social media advertising to improve conversions and ROI. Our management includes ad creation, targeting, bidding strategy, and campaign optimization to ensure your ads reach the right users while controlling costs.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
   },
   {
-    title: "Corporate Website Design",
+    title: "GEO-Targeted Marketing",
     description:
-      "Our corporate website design services help companies build a strong professional presence online. We design websites that highlight your company profile, services, achievements, and values in a polished and business-friendly way. A well-designed corporate site builds trust, attracts clients, and strengthens your brand identity. We focus on clean layouts, easy navigation, and engaging visuals that reflect your professionalism. With our expertise in business website design, corporate branding, and enterprise Digital Marketing Solutions, we ensure your company stands out in a competitive market and builds lasting credibility with customers and stakeholders.",
-    image: "/images/service/corporate-website-design.jpg",
+      "GEO-targeting focuses your marketing efforts on specific locations to reach the right customers at the right time. We optimize campaigns for local SEO, location-based ads, and mobile users. By combining search engine strategies and paid campaigns, we help businesses attract regional customers effectively and improve brand recognition locally.",
+    image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=800&auto=format&fit=crop",
   },
   {
-    title: "Responsive Digital Marketing Solutions Services",
+    title: "Content Marketing",
     description:
-      "Our responsive Digital Marketing Solutions services ensure that your website adapts automatically to desktops, tablets, and mobiles, offering visitors a consistent experience across all devices. A responsive website reduces maintenance, improves SEO ranking, and increases customer satisfaction. Whether users access your site on Chrome, Safari, or other browsers, they’ll enjoy smooth navigation and clear content display. With our expertise in cross-browser compatibility, mobile-friendly layouts, and adaptive Digital Marketing Solutions, we help businesses expand their reach, retain visitors longer, and generate more leads through modern, responsive, and user-focused websites.",
-    image: "/images/service/responsive-web-design.jpg",
+      "We create high-quality content such as blogs, articles, infographics, and videos that educate and attract your target audience. Content marketing improves SEO, boosts search engine ranking, and drives organic traffic. By using storytelling and regular updates, we help build brand authority, customer trust, and long-term business growth.",
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop",
   },
   {
-    title: "Dynamic Website Design",
+    title: "Email Marketing",
     description:
-      "We build dynamic websites that are interactive, flexible, and easy to update. Whether it’s blogs, product listings, forms, or content sections, dynamic websites allow businesses to make changes without technical knowledge. These websites engage visitors with fresh updates and interactive features. Perfect for businesses that need frequent content updates, they enhance user experience and functionality. With our expertise in CMS-based websites, interactive web solutions, and dynamic design development, we help brands stay current, provide engaging experiences, and grow their online presence with modern and scalable websites.",
-    image: "/images/service/dynamic-website-design.jpg",
-  },
-  {
-    title: "Static Website Design",
-    description:
-      "Our static website design services are ideal for small businesses, startups, or individuals who need a simple yet effective online presence. Static websites have fixed content, load quickly, and are budget-friendly. They work best for companies that don’t require frequent content updates. Despite their simplicity, our Development are professional, clean, and SEO-friendly, ensuring you leave a strong impression online. With our expertise in one-page websites, basic business Digital Marketing Solutions, and lightweight static websites, we help clients establish a credible identity and showcase their offerings effectively at low cost.",
-    image: "/images/service/static-website-design.jpg",
-  },
-  {
-    title: "Website ReDevelopment Services",
-    description:
-      "We offer website redesign services to transform outdated websites into modern, user-friendly platforms. From updating layouts and improving visuals to enhancing speed and mobile responsiveness, we give your site a complete makeover. A redesigned website improves user engagement, reduces bounce rates, and builds credibility. Whether you need better SEO performance, improved navigation, or a fresh corporate look, we can help. With our expertise in website revamp, modern UI/UX updates, and redesign services, we ensure your online presence stays competitive, relevant, and aligned with current digital trends.",
-    image: "/images/service/website-redesigning-services.jpg",
-  },
-  {
-    title: "PSD to HTML Services",
-    description:
-      "Our PSD to HTML conversion services turn your design files into fully functional, responsive websites. We carefully code your PSD Development into clean HTML while maintaining layout accuracy and browser compatibility. These websites are SEO-friendly, fast-loading, and mobile-optimized. By converting your creative Development into real websites, we ensure smooth performance across all platforms. With our expertise in HTML5 coding, responsive Digital Marketing Solutions, and PSD conversion, we provide reliable, pixel-perfect websites that are easy to manage, visually appealing, and effective for online business success.",
-    image: "/images/service/psd-to-html-services.jpg",
+      "Email marketing lets you communicate directly with your audience. We design campaigns for newsletters, promotional offers, and customer engagement. Using segmentation, automation, and targeted messages, we increase open rates and conversions. Our goal is to drive repeat sales, boost brand loyalty, and ensure each email adds value to your audience.",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=800&auto=format&fit=crop",
   },
 ];
 
