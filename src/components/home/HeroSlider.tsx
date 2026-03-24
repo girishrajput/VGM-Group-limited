@@ -90,7 +90,7 @@ export default function HeroSlider() {
                   transition={{ delay: 0.6, duration: 0.5 }}
                   className="text-center mx-auto"
                 >
-                  <Link href="/Contact">
+                  <Link href="/contact">
                     <span className="inline-block bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-full font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg cursor-pointer text-center mx-auto">
                       Book a Free Consultation
                     </span>

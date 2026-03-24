@@ -1,32 +1,33 @@
-'use server';
-import { Resend } from 'resend';
-
-const resend = new Resend('re_Cwdc8S9y_MHornFSgMhCt6noxHS9YhRtp');
-
+// No 'use server' here!
 export async function sendEmail(formData: FormData) {
-  const name = formData.get('name');
-  const email = formData.get('email');
-  const phone = formData.get('phone');
-  const website = formData.get('website');
-  const service = formData.get('service');
-  const message = formData.get('message');
+  // We use a public API service since we don't have a private server anymore
+  // Get a free key at https://web3forms.com/
+  const accessKey = "YOUR_FREE_ACCESS_KEY_HERE"; 
+
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify({
+    ...object,
+    access_key: accessKey,
+    subject: `New Inquiry from ${object.name}`,
+  });
 
   try {
-    await resend.emails.send({
-      from: 'onboarding@resend.dev',
-      to: 'girishkumarlodhi7@gmail.com',
-      subject: `New Inquiry: ${service} from ${name}`,
-      html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
-        <p><strong>Website:</strong> ${website}</p>
-        <p><strong>Service:</strong> ${service}</p>
-        <p><strong>Message:</strong> ${message}</p>
-      `
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
     });
-    return { success: true };
+
+    const result = await response.json();
+
+    if (result.success) {
+      return { success: true };
+    } else {
+      return { success: false, error: "Submission failed" };
+    }
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred';
     return { success: false, error: errorMessage };

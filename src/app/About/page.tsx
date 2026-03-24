@@ -3,7 +3,7 @@ import { Eye, Target, Lightbulb, Handshake, ReceiptText, WalletCards } from 'luc
 import Image from "next/image";
 import InnerHeader from '@/components/InnerHeader'
 
-const AboutPage = () => {
+const About = () => {
   return (
     <>
       {/* Hero Section */}
@@ -109,4 +109,4 @@ const ValueItem = ({ icon, title, text }: { icon: any, title: string, text: stri
 
 );
 
-export default AboutPage;
+export default About;

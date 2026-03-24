@@ -18,7 +18,7 @@ export default function ContactSection() {
   { Icon: Mail, href: "mailto:info@vgmgroup.co.tz" },
   { Icon: Phone, href: "tel:+255744000900" },
   { Icon: MessageSquare, href: "https://wa.me/255744000900" },
-  { Icon: User, href: "/Contact" },
+  { Icon: User, href: "/contact" },
 ];
 
   // Common styles for inputs to keep the code clean
