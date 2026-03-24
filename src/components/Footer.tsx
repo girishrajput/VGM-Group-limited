@@ -45,14 +45,22 @@ const Footer = () => {
             <div className="lg:col-span-1">
               <div className="flex items-center gap-2 mb-6">
                 <Link href="/">
-                  <Image
-                    src="/images/vgm-logo.png"
-                    alt="IRCOIT Logo"
+                <Image
+                            src="/images/vgmlogo.png"
+                            alt="VGM Logo"
+                            width={100}
+                            height={50}
+                            style={{ width: "160px", height: "auto" }}
+                            className="object-contain cursor-pointer filter brightness-0 invert"
+                          />
+                  {/* <Image
+                    src="/images/vgmlogo.png"
+                    alt="VGM Group Logo"
                     width={150}
                     height={50}
                     priority
                     className="object-contain cursor-pointer filter brightness-0 invert"
-                  />
+                  /> */}
                 </Link>
               </div>
               <p className="text-zinc-400 text-sm leading-relaxed mb-6">
