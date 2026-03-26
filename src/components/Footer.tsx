@@ -92,7 +92,7 @@ const Footer = () => {
                   {section.links.map((link) => (
                     <li key={link} className="bg-gray-900 md:bg-transparent px-2 md:px-0 py-1 md:py-0 rounded-lg">
                       <Link href="#" className="group text-zinc-400 hover:text-red-500 text-sm transition-colors duration-200 flex items-center">
-                        <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 mr-0 group-hover:mr-2 transition-all"></span>
+                        <span className="w-0 group-hover:w-2 bg-red-500 mr-0 group-hover:mr-2 transition-all"></span>
                         {link}
                       </Link>
                     </li>

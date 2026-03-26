@@ -19,13 +19,12 @@ const Header = () => {
       { name: "GMC Properties", href: "/portals/gmc-properties" },
       { name: "Quick Biz", href: "/portals/quick-biz" },
       { name: "VGM Group travel and tours", href: "/portals/vgmgroup-travelandtours" },
+      { name: "Global College of Business & Management", href: "/portals/global-college" },
     ],
     products: [
       { name: "Business Process Outsourcing (BPO)", href: "/products/business-processoutsourcing" },
       { name: "HR & Payroll Management Software", href: "/products/hrpayroll-management" },
       { name: "HR Solutions", href: "/products/hr-solutions" },
-      { name: "Travel & Tours Services", href: "/products/travel-toursservices" },
-      { name: "GMC Properties", href: "/products/gmc-properties" },
       { name: "Digital Services", href: "/products/digital-services" },
     ],
     industries: [
