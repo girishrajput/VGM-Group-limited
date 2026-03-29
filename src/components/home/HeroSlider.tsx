@@ -1,118 +1,52 @@
-"use client";
-
-import { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, EffectFade } from "swiper/modules";
-import { motion, AnimatePresence } from "framer-motion";
 import Link from 'next/link';
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/effect-fade";
-
-const slides = [
-  {
-    id: 2,
-    title: "VGM GROUP LIMITED",
-    desc: "Innovative Solution for your Business Competitiveness",
-    video: "/images/banner.mp4",
-  },
-];
+const HERO_DATA = {
+  title: "VGM GROUP LIMITED",
+  desc: "Innovative Solution for your Business Competitiveness",
+  video: "/images/banner.mp4",
+};
 
 export default function HeroSlider() {
-  const [isMounted, setIsMounted] = useState(false);
-
-  // This ensures the component only renders its interactive content on the client
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  if (!isMounted) {
-    // Return a skeleton/placeholder with the same height to prevent Layout Shift
-    return <div className="w-full h-screen bg-black" />;
-  }
-
   return (
     <section className="relative w-full h-[calc(50vh-80px)] md:h-[calc(100vh-80px)] overflow-hidden">
-      <Swiper
-        modules={[Autoplay, Pagination, EffectFade]}
-        effect="fade"
-        slidesPerView={1}
-        autoplay={{ delay: 6000, disableOnInteraction: false }}
-        pagination={{ clickable: true }}
-        loop
-        className="h-full w-full"
-      >
-        {slides.map((slide) => (
-          <SwiperSlide key={slide.id}>
-            <div className="relative w-full h-full flex items-center justify-start">
-              
-              {/* Background Video */}
-              <video
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="absolute inset-0 w-full h-full object-cover"
-              >
-                <source src={slide.video} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+      <div className="relative w-full h-full flex items-center justify-center">
+        
+        {/* Background Video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src={HERO_DATA.video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black/40 z-[1]"></div>
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/40 z-[1]"></div>
 
-              {/* Content */}
-              <div className="relative z-10 max-w-6xl mx-auto w-full px-8 md:px-12 text-white text-left">
-                <motion.div
-                  initial={{ opacity: 0, x: -50 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8, ease: "easeOut" }}
-                >
-                  <h1 className="text-4xl md:text-7xl font-bold mb-4 tracking-tight text-center">
-                    {slide.title}
-                  </h1>
-                </motion.div>
+        {/* Content */}
+        <div className="relative z-10 max-w-6xl mx-auto w-full px-8 md:px-12 text-white text-center">
+          <div>
+            <h1 className="text-4xl md:text-7xl font-bold mb-4 tracking-tight">
+              {HERO_DATA.title}
+            </h1>
+          </div>
 
-                <motion.p
-                  initial={{ opacity: 0, x: -50 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
-                  className="text-lg md:text-2xl mb-8 max-w-2xl text-gray-200 text-center mx-auto"
-                >
-                  {slide.desc}
-                </motion.p>
+          <p className="text-lg md:text-2xl mb-8 max-w-2xl text-gray-200 mx-auto">
+            {HERO_DATA.desc}
+          </p>
 
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.6, duration: 0.5 }}
-                  className="text-center mx-auto"
-                >
-                  <Link href="/contact">
-                    <span className="inline-block bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-full font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg cursor-pointer text-center mx-auto">
-                      Book a Free Consultation
-                    </span>
-                  </Link>
-                </motion.div>
-              </div>
-
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
-      <style jsx global>{`
-        .swiper-pagination-bullet {
-          background: white !important;
-          opacity: 0.5;
-        }
-        .swiper-pagination-bullet-active {
-          background: #dc2626 !important;
-          opacity: 1;
-        }
-      `}</style>
+          <div>
+            <Link href="/contact">
+              <span className="inline-block bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-full font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg cursor-pointer">
+                Book a Free Consultation
+              </span>
+            </Link>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
