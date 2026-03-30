@@ -38,7 +38,7 @@ const Header = () => {
     portals: [
       { name: "Job & Recruiters", href: "/portals/jobandrecruiters" },
       { name: "GMC Properties", href: "/portals/gmc-properties" },
-      { name: "Quick Biz", href: "/portals/quick-biz" },
+      { name: "Hot Biz Media", href: "https://www.hotbizmedia.co.tz/" },
       { name: "VGM Group travel and tours", href: "/portals/vgmgroup-travelandtours" },
       { name: "Global College of Business & Management", href: "/portals/global-college" },
     ],

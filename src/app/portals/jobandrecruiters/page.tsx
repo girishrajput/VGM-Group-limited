@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { Search, MapPin, Briefcase, Users, FileText, ChevronRight, Menu, X } from 'lucide-react';
 import InnerHeader from '@/components/InnerHeader';
 
+import { Timer, Mail, ArrowRight, Github, Twitter, Linkedin } from 'lucide-react';
+
 function JobPortalsPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,8 +16,90 @@ function JobPortalsPage() {
         subtitle="" 
       />
 
-      {/* --- HERO SECTION --- */}
-      <section className="relative h-[90vh] flex items-center bg-black pt-20">
+      <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white py-20">
+      
+      {/* Optional: Subtle Background Texture (Unsplash) - Very Faint */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=1920"
+          alt="Geometric White Background"
+          className="w-full h-full object-cover opacity-10" // Low opacity to keep it subtle
+        />
+        <div className="absolute inset-0 bg-white/80" />
+      </div>
+
+      {/* Main Content */}
+      <div className="relative z-10 max-w-3xl px-6 text-center">
+        
+        {/* Brand/Logo Placeholder */}
+        <div className="inline-flex items-center justify-center p-3 mb-8 rounded-2xl bg-slate-50 border border-slate-100 shadow-sm">
+          <Timer className="w-8 h-8 text-red-600 mr-2" />
+          <span className="text-xl font-bold text-slate-950 tracking-tight">VANTAGE.</span>
+        </div>
+
+        <h1 className="text-5xl md:text-7xl font-extrabold text-slate-950 mb-6 tracking-tight">
+          We're building <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-cyan-500">
+            something massive.
+          </span>
+        </h1>
+
+        <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+          Our HR & Payroll revolution is almost ready. We’re putting the finishing touches on a platform that will redefine how you manage your workforce.
+        </p>
+
+        {/* Countdown Placeholders */}
+        <div className="grid grid-cols-4 gap-4 md:gap-8 mb-12 max-w-md mx-auto bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm">
+          {[
+            { label: 'Days', value: '12' },
+            { label: 'Hours', value: '09' },
+            { label: 'Min', value: '45' },
+            { label: 'Sec', value: '30' }
+          ].map((item) => (
+            <div key={item.label} className="flex flex-col text-center">
+              <span className="text-3xl md:text-4xl font-bold text-slate-900 font-mono tracking-tighter">{item.value}</span>
+              <span className="text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">{item.label}</span>
+            </div>
+          ))}
+        </div>
+
+        {/* Email Capture */}
+        <div className="max-w-md mx-auto">
+          <form className="relative group">
+            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <Mail className="h-5 w-5 text-slate-400 group-focus-within:text-red-600 transition-colors" />
+            </div>
+            <input
+              type="email"
+              placeholder="Enter your email for early access"
+              className="block w-full pl-12 pr-32 py-4 bg-white border border-slate-200 rounded-2xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-400 focus:bg-white transition-all shadow-inner"
+            />
+            <button
+              type="submit"
+              className="absolute right-2 top-2 bottom-2 px-6 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-xl transition-all flex items-center shadow-md hover:shadow-lg"
+            >
+              Join <ArrowRight className="ml-2 w-4 h-4" />
+            </button>
+          </form>
+          <p className="mt-4 text-sm text-slate-500">
+            * Get notified the moment we launch. No spam, ever.
+          </p>
+        </div>
+
+        {/* Social Links */}
+        <div className="mt-16 flex items-center justify-center space-x-6 text-slate-400 border-t border-slate-100 pt-8">
+          <a href="#" className="hover:text-red-600 transition-colors"><Twitter className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-slate-900 transition-colors"><Github className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-red-700 transition-colors"><Linkedin className="w-5 h-5" /></a>
+        </div>
+      </div>
+
+      {/* Subtle Light Gradient orbs (Background) */}
+      <div className="absolute top-1/4 -left-20 w-72 h-72 bg-red-50 rounded-full blur-[100px] opacity-60" />
+      <div className="absolute bottom-1/4 -right-20 w-72 h-72 bg-cyan-50 rounded-full blur-[100px] opacity-60" />
+    </div>
+
+      {/* <section className="relative h-[90vh] flex items-center bg-black pt-20">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000" 
@@ -37,7 +121,6 @@ function JobPortalsPage() {
             </p>
           </div>
 
-          {/* Search Box */}
           <div className="mt-8 bg-white p-2 md:p-3 shadow-2xl flex flex-col md:flex-row gap-2 max-w-4xl">
             <div className="flex-1 flex items-center px-4 border-b md:border-b-0 md:border-r border-gray-100">
               <Search className="text-red-600 mr-3" size={20} />
@@ -58,7 +141,6 @@ function JobPortalsPage() {
         </div>
       </section>
 
-      {/* --- STATS BAR --- */}
       <div className="bg-[#0f0f0f] border-b border-white/5 py-12">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
@@ -79,7 +161,6 @@ function JobPortalsPage() {
         </div>
       </div>
 
-      {/* --- JOB GRID --- */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
@@ -118,7 +199,7 @@ function JobPortalsPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
