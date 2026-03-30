@@ -38,7 +38,7 @@ function page() {
         {/* Right Side: Content */}
         <div className="space-y-6">
           <header>
-            <h2 className="text-4xl font-bold text-slate-800 mb-2">02. HR Solution</h2>
+            <h2 className="text-4xl font-bold text-slate-800 mb-2">Documentation</h2>
             <div className="h-1 w-20 bg-red-600"></div>
           </header>
 

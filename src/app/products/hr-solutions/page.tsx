@@ -34,7 +34,7 @@ export default function Page() {
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="relative h-[80vh] flex items-center justify-center text-white">
+        {/* <section className="relative h-[80vh] flex items-center justify-center text-white">
           <div className="absolute inset-0 z-0">
             <Image
               src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
@@ -51,7 +51,7 @@ export default function Page() {
               Human Resource Management Software
             </p>
           </div>
-        </section>
+        </section> */}
 
         {/* Modules Section */}
         <section className="py-20 max-w-7xl mx-auto px-4">
@@ -59,7 +59,7 @@ export default function Page() {
             Our Core Solutions
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-4 gap-8">
             <FeatureCard
               title="Recruitment Management"
               description="Strategic process of finding, attracting, and hiring the most suitable candidates."
@@ -77,6 +77,15 @@ export default function Page() {
               description="Calculating wages, withholding taxes, and ensuring payments."
               image="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=600&q=80"
             />
+
+            <FeatureCard
+              title="HR Solution"
+              description="-On-site work at customer location
+-Remote work delivery from global locations
+-The Hybrid cloud model increases the flexibility of computing and is the most beneficial cloud-based service delivery model."
+              image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop"
+            />
+
           </div>
         </section>
       </div>
