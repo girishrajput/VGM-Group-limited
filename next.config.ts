@@ -1,12 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: 'export',
-  trailingSlash: true, // This fixes the 404 errors on internal pages
-  reactCompiler: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    unoptimized: true, 
+    unoptimized: true,
   },
+  output: 'export',
 };
 
 export default nextConfig;

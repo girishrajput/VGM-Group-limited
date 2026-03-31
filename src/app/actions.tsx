@@ -2,7 +2,7 @@
 export async function sendEmail(formData: FormData) {
   // We use a public API service since we don't have a private server anymore
   // Get a free key at https://web3forms.com/
-  const accessKey = "YOUR_FREE_ACCESS_KEY_HERE"; 
+  const accessKey = "4103c428-889f-46c7-ae66-0d3bac9b5e93"; 
 
   const object = Object.fromEntries(formData);
   const json = JSON.stringify({
