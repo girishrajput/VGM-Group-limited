@@ -161,7 +161,7 @@ function page() {
             <div className="flex justify-center gap-6 mb-12">
               <div className="flex items-center gap-2">
                 <Phone className="text-white-500" />
-                <span>+255 XXX XXX XXX</span>
+                <span>+255 786 277 777</span>
               </div>
             </div>
             <hr className="border-slate-700 mb-8" />

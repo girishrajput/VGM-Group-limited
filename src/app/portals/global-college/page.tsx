@@ -233,7 +233,7 @@ function Page() {
                   Near SGR Line.
                 </p>
                 <div className="flex items-center gap-2 text-red-600 font-bold text-sm">
-                  <Phone size={14} /> +255 7XX XXX XXX
+                  <Phone size={14} /> +255 786 277 777
                 </div>
               </div>
             </div>

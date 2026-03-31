@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -39,7 +40,15 @@ export default function RootLayout({
     <html lang="en">
       <body suppressHydrationWarning={true}>
         <Header />
-        <main className="pt-24">{children}</main>
+        <main className="pt-24">
+          {children}
+          
+          <Script
+            src="https://embed.tawk.to/69cc0aec45372f1c4ad3f3de/1jl2glbm0"
+            strategy="afterInteractive"
+          />
+
+        </main>
         <Footer />
       </body>
     </html>

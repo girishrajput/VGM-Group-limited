@@ -157,7 +157,7 @@ function page() {
                   <Mail size={20} /> <span>reservations@vgmgroup.co.tz</span>
                 </div>
                 <div className="flex items-center space-x-3 text-emerald-900 font-semibold">
-                  <Phone size={20} /> <span>+255 7XX XXX XXX</span>
+                  <Phone size={20} /> <span>+255 786 277 777</span>
                 </div>
               </div>
             </div>

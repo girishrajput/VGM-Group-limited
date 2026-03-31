@@ -212,7 +212,7 @@ function Page() {
               <h2 className="text-4xl font-extrabold mb-6">Get in Touch</h2>
               <p className="text-lg text-gray-300 mb-10 leading-relaxed">Ready to find your perfect plot or maximize your property returns? Contact us today.</p>
               <div className="space-y-6 text-gray-300">
-                <p>📞 +255 XXX XXX XXX</p>
+                <p>📞 +255 786 277 777</p>
                 <p>✉️ info@gmcproperties.co.tz</p>
                 <p>📍 Kibaha Town, Pwani, Tanzania</p>
               </div>
