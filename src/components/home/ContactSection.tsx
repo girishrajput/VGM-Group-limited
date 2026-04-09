@@ -8,18 +8,18 @@ export default function ContactSection() {
   async function handleAction(formData: FormData) {
     const result = await sendEmail(formData);
     if (result.success) {
-      alert("Email sent to Girish!");
+      alert("Email sent to VGM Group Limited successfully!");
     } else {
       alert("Error: " + result.error);
     }
   }
 
   const socialLinks = [
-  { Icon: Mail, href: "mailto:info@vgmgroup.co.tz" },
-  { Icon: Phone, href: "tel:+255744000900" },
-  { Icon: MessageSquare, href: "https://wa.me/255744000900" },
-  { Icon: User, href: "/contact" },
-];
+    { Icon: Mail, href: "mailto:info@vgmgroup.co.tz" },
+    { Icon: Phone, href: "tel:+255744000900" },
+    { Icon: MessageSquare, href: "https://wa.me/255744000900" },
+    { Icon: User, href: "/contact" },
+  ];
 
   // Common styles for inputs to keep the code clean
   const inputStyles = "w-full p-3 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all bg-slate-50";
@@ -39,16 +39,16 @@ export default function ContactSection() {
 
           <div className="flex gap-4">
             {socialLinks.map(({ Icon, href }, idx) => (
-  <a
-    key={idx}
-    href={href}
-    target="_blank" // Opens in a new tab
-    rel="noopener noreferrer" // Security best practice
-    className="w-12 h-12 rounded-full border border-slate-300 flex items-center justify-center text-slate-400 hover:text-red-600 hover:border-red-600 hover:bg-white transition-all cursor-pointer shadow-sm"
-  >
-    <Icon size={20} strokeWidth={1.5} />
-  </a>
-))}
+              <a
+                key={idx}
+                href={href}
+                target="_blank" // Opens in a new tab
+                rel="noopener noreferrer" // Security best practice
+                className="w-12 h-12 rounded-full border border-slate-300 flex items-center justify-center text-slate-400 hover:text-red-600 hover:border-red-600 hover:bg-white transition-all cursor-pointer shadow-sm"
+              >
+                <Icon size={20} strokeWidth={1.5} />
+              </a>
+            ))}
           </div>
         </div>
 
@@ -95,19 +95,26 @@ export default function ContactSection() {
 
               <select name="service" className={inputStyles}>
                 <option value="">Select a Service</option>
+                <option value="Business Process Outsourcing (BPO)">Business Process Outsourcing (BPO)</option>
+                <option value="HR & Payroll Management Software">HR & Payroll Management Software</option>
+                <option value="HR Solutions">HR Solutions</option>
+                <option value="Web Designing">Web Designing</option>
                 <option value="Web Development">Web Development</option>
-                <option value="App Development">App Development</option>
+                <option value="Mobile App Development">Mobile App Development</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="WhatsApp Business Solutions">WhatsApp Business Solutions</option>
+                <option value="Promotional Video Services">Promotional Video Services</option>
               </select>
 
-              <textarea 
-                name="message" 
+              <textarea
+                name="message"
                 placeholder="How can we help you?"
                 rows={4}
                 className={inputStyles}
               ></textarea>
 
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded-lg transition-colors shadow-lg shadow-red-200"
               >
                 Send Message
