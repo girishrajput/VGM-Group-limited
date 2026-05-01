@@ -36,9 +36,9 @@ const Header = () => {
 
   const menuData = {
     portals: [
-      { name: "Job & Recruiters", href: "/portals/jobandrecruiters" },
+      { name: "Job & Recruiters", href: "https://ajirafasta.co.tz/", target: "_blank" },
       { name: "GMC Properties", href: "/portals/gmc-properties" },
-      { name: "Hot Biz Media", href: "https://www.hotbizmedia.co.tz/" },
+      { name: "Hot Biz Media", href: "https://www.hotbizmedia.co.tz/", target: "_blank" },
       { name: "VGM Group travel and tours", href: "/portals/vgmgroup-travelandtours" },
       { name: "Global College of Business & Management", href: "/portals/global-college" },
     ],

@@ -53,7 +53,7 @@ export default function ServicesList() {
                 <div className={`absolute -right-4 -top-4 w-24 h-24 bg-gradient-to-br ${item.color} opacity-10 rounded-full transition-transform duration-700 group-hover:scale-150`} />
                 
                 {/* Icon Container */}
-                <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${item.color} flex items-center justify-center text-white mb-6 shadow-lg transition-transform duration-300 group-hover:rotate-6`}>
+                <div className={`w-14 h-14 rounded-2xl bg-red-500 flex items-center justify-center text-white mb-6 shadow-lg transition-transform duration-300 group-hover:rotate-6`}>
                   <item.icon size={24} />
                 </div>
 
