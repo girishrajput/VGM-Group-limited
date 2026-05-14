@@ -3,6 +3,7 @@ import WeOffer from '@/components/home/WeOffer'
 import DrivingResults from '@/components/home/DrivingResults'    
 import Industries from '@/components/home/Industries'   
 import SmartbizHrms from '@/components/home/SmartbizHrms'
+import TrustedBy from '@/components/home/TrustedBy'
 
 // 1. Metadata for SEO (Crucial for search engines)
 export const metadata = {
@@ -20,6 +21,7 @@ function HomePage() {
       <SmartbizHrms />
       <DrivingResults />
       <Industries />
+      <TrustedBy />
     </main>
   )
 }
