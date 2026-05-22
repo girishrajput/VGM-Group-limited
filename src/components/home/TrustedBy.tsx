@@ -11,6 +11,7 @@ const logos = [
     { name: 'Hot Biz Media', src: '/logos/logo8.jpg' },
     { name: 'VGM Group travel and tours', src: '/logos/logo9.jpg' },
     { name: 'Global College of Business & Management', src: '/logos/logo10.jpg' },
+    { name: 'Global College of Business & Management', src: '/logos/logo11.png' },
 ];
 
 export default function LogoSection() {
@@ -21,7 +22,7 @@ export default function LogoSection() {
         {/* Heading Section */}
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-            Used by <span className="bg-orange-100 px-1">10M+ users</span> around the world
+            Our client and partners
           </h2>
         </div>
 
