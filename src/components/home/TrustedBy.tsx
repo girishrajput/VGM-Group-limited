@@ -12,6 +12,7 @@ const logos = [
     { name: 'VGM Group travel and tours', src: '/logos/logo9.jpg' },
     { name: 'Global College of Business & Management', src: '/logos/logo10.jpg' },
     { name: 'Global College of Business & Management', src: '/logos/logo11.png' },
+    { name: 'Global College of Business & Management', src: '/logos/logo12.jpg' },
 ];
 
 export default function LogoSection() {
